@@ -10,8 +10,6 @@
 
 <script>
     export let poke;
-    
-    console.log(poke);
     const type = poke.types.map(arr => arr.type.name).join(" ");
 </script>
 
