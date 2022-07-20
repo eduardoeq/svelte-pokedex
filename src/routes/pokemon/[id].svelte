@@ -14,12 +14,21 @@
 </script>
 
 <div class="flex flex-col items-center">
-    <h1 class="capitalize text-4xl my-8">{poke.name}</h1>
+    <h1 class="capitalize text-4xl my-8 text-rose-500 font-semibold">{poke.name}</h1>
 
+    <div class="w-full">
+        <a href="/">
+            <img 
+                src="/chevron-left.svg" 
+                alt="Go back" 
+                class="float-left w-8 mx-4"
+            />
+        </a>
+    </div>
     <p class="capitalize text-md my-8">
-        Type: <strong>{type}</strong> |
-        Height: <strong>{poke.height/10} m</strong> |
-        Weight: <strong>{poke.weight/10} kg</strong>
+        Type: <strong class="text-rose-600">{type}</strong> |
+        Height: <strong class="text-rose-600">{poke.height/10} m</strong> |
+        Weight: <strong class="text-rose-600">{poke.weight/10} kg</strong>
     </p>
 
     <img 

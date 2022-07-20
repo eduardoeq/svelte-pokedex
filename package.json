@@ -26,5 +26,8 @@
 		"tailwindcss": "^3.1.6",
 		"vite": "^3.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-infinite-scroll": "^2.0.1"
+	}
 }
