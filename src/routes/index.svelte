@@ -29,7 +29,6 @@
     let searchTerm = "";
     // let pokemon = [];
     let pokemon = allPokemon.slice(0, size*page);
-    console.log(pokemon)
     let filteredPokemon = pokemon;
 
     $: {
@@ -47,7 +46,7 @@
     <title>Pokédex</title>
 </svelte:head>
 
-<h1 class="text-4xl text-center my-8 uppercase text-rose-500 font-semibold">Pokédex</h1>
+<h1 class="dark text-4xl text-center my-8 uppercase text-rose-500 font-semibold">Pokédex</h1>
 
 <input 
     class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
