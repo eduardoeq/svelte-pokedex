@@ -55,7 +55,7 @@
     bind:value={searchTerm}    
 />
 
-<div class="py-4 grid gap-4 lg:grid-cols-3 md:grid-cols-3 sm:gr-cols-2">
+<div class="py-4 grid gap-4 lg:grid-cols-3 md:grid-cols-2">
     {#each filteredPokemon as poke}
         <Pokecard poke={poke} />
     {/each}
